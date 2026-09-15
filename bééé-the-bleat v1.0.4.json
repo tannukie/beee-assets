@@ -1,0 +1,673 @@
+{
+  "ruleset": "bééé-the-bleat v1.0.4",
+  "hammers_per_turn": 0,
+  "ant_limit": 0,
+  "deck_size_min": 30,
+  "max_commons_main": 1,
+  "max_commons_side": 10,
+  "num_candles": 2,
+  "variable_attack_nerf": false,
+  "allow_snuffing_candles": false,
+  "opt_actives": false,
+  "enable_backrow": false,
+  "portrait": "",
+  "description": "Bééé: The Bleat — 1v1 custom ruleset. \nTrophy costs are represented as Blood costs; \nthe Trophy Side Deck contains 10 Trophy cards.",
+  "cards": [
+    {
+      "name": "A Common Bééé",
+      "attack": 1,
+      "health": 2,
+      "blood_cost": 1,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/beees-portraits/a%20commmon%20beee.png?raw=true"
+    },
+    {
+      "name": "Oliver Bééé Tree",
+      "attack": 1,
+      "health": 2,
+      "blood_cost": 2,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/beees-portraits/oliver%20beee.png",
+      "sigils": [
+        "Armored",
+        "Sharp Quills"
+      ]
+    },
+    {
+      "name": "Joker Bééé",
+      "attack": 0,
+      "health": 1,
+      "blood_cost": 1,
+      "sigils": [
+        "Leader",
+        "Blood Lust"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/balatro.png"
+    },
+    {
+      "name": "Jack Bééé Sparrow",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Sniper",
+        "Hefty"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/jack-sparrow.png"
+    },
+    {
+      "name": "Naruto Bééé",
+      "attack": 1,
+      "health": 1,
+      "blood_cost": 1,
+      "sigils": [
+        "Stinky",
+        "Worthy Sacrifice"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/naruto.png"
+    },
+    {
+      "name": "Mickey Bééé",
+      "attack": 0,
+      "health": 4,
+      "blood_cost": 1,
+      "sigils": [
+        "Burrower"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/mickey.png"
+    },
+    {
+      "name": "Space Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/space.png"
+    },
+    {
+      "name": "Zombie Bééé",
+      "attack": 4,
+      "health": 1,
+      "blood_cost": 1,
+      "sigils": [
+        "Brittle"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/zombie.png"
+    },
+    {
+      "name": "Communist Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 1,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/communist.png"
+    },
+    {
+      "name": "Arthur Bééé Morgan",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Sniper"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/rd2.png"
+    },
+    {
+      "name": "Samurai Bééé",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "sigils": [
+        "Bifurcated Strike"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/samurai.png"
+    },
+    {
+      "name": "Marked Ninja Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 2,
+      "sigils": [
+        "Waterborne",
+        "Sprinter"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/ninja.png"
+    },
+    {
+      "name": "Hollow Bééé Knight",
+      "attack": 1,
+      "health": 1,
+      "blood_cost": 2,
+      "sigils": [
+        "Unkillable",
+        "Trifurcated Strike"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/hk.png"
+    },
+    {
+      "name": "Goku Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/Goku.png?raw=true",
+      "sigils": [
+        "Fledgling"
+      ]
+    },
+    {
+      "name": "Goku Bééé — Super Saiyan",
+      "attack": 4,
+      "health": 4,
+      "rare": true,
+      "banned": true,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/Goku.png?raw=true"
+    },
+    {
+      "name": "Martian Bééé",
+      "attack": 0,
+      "health": 2,
+      "blood_cost": 1,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/alien.png?raw=true"
+    },
+    {
+      "name": "Expedition Bééé 33",
+      "attack": 4,
+      "health": 4,
+      "blood_cost": 3,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/e33.png"
+    },
+    {
+      "name": "The Bééérooms",
+      "attack": 0,
+      "health": 1,
+      "blood_cost": 1,
+      "sigils": [
+        "Brittle",
+        "Worthy Sacrifice"
+      ],
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/backrooms.png?raw=true"
+    },
+    {
+      "name": "Gladiator Bééé",
+      "attack": 2,
+      "health": 5,
+      "blood_cost": 3,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/gladiator.png"
+    },
+    {
+      "name": "Mine Bééé Craft",
+      "attack": 3,
+      "health": 4,
+      "blood_cost": 3,
+      "sigils": [
+        "Armored"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/mine.png"
+    },
+    {
+      "name": "GigaBééé",
+      "attack": 3,
+      "health": 3,
+      "blood_cost": 2,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/giga.png"
+    },
+    {
+      "name": "MMA Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 1,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/mma.png"
+    },
+    {
+      "name": "Matrix Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 2,
+      "sigils": [
+        "Airborne",
+        "Armored"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/matrix.png"
+    },
+    {
+      "name": "SlenderBééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Waterborne"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/slender.png"
+    },
+    {
+      "name": "Willy Bééé Wonka",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "sigils": [
+        "Leader"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/willy.png"
+    },
+    {
+      "name": "F1 Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 2,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/asenna.png?raw=true",
+      "sigils": [
+        "Sprinter"
+      ]
+    },
+    {
+      "name": "Ryu Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/ryu.png"
+    },
+    {
+      "name": "Link Bééé",
+      "attack": 1,
+      "health": 4,
+      "blood_cost": 2,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/link.png"
+    },
+    {
+      "name": "Bééétman",
+      "attack": 3,
+      "health": 3,
+      "blood_cost": 3,
+      "sigils": [
+        "Sniper"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/batman.png"
+    },
+    {
+      "name": "MonaBééé",
+      "attack": 1,
+      "health": 2,
+      "blood_cost": 2,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/mona.png"
+    },
+    {
+      "name": "Cthulhu Bééé",
+      "attack": 3,
+      "health": 5,
+      "blood_cost": 3,
+      "sigils": [
+        "Stinky"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/cthulhu.png"
+    },
+    {
+      "name": "Abstract Bééé",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/abstract.png?raw=true"
+    },
+    {
+      "name": "CRT TV Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Airborne"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/crt.png"
+    },
+    {
+      "name": "Plush Bééé",
+      "attack": 0,
+      "health": 4,
+      "blood_cost": 1,
+      "sigils": [
+        "Unkillable"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/plush.png"
+    },
+    {
+      "name": "Glitched Bééé",
+      "attack": 3,
+      "health": 1,
+      "blood_cost": 1,
+      "sigils": [
+        "Touch of Death"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/glitch.png"
+    },
+    {
+      "name": "Oil Painting Bééé",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/painting.png"
+    },
+    {
+      "name": "Inverted Bééé",
+      "attack": 1,
+      "health": 2,
+      "blood_cost": 1,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/inverted.png"
+    },
+    {
+      "name": "A Bééé Sketch",
+      "attack": 0,
+      "health": 3,
+      "blood_cost": 1,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/sketch.png"
+    },
+    {
+      "name": "Sans Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 3,
+      "sigils": [
+        "Armored",
+        "Bifurcated Strike"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/sans.png"
+    },
+    {
+      "name": "Soccer Bééé",
+      "attack": 2,
+      "health": 2,
+      "blood_cost": 2,
+      "sigils": [
+        "Sprinter"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/soccer.png"
+    },
+    {
+      "name": "Warrior Bééé",
+      "attack": 2,
+      "health": 3,
+      "blood_cost": 2,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/warrior.png"
+    },
+    {
+      "name": "Healer Bééé",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "sigils": [
+        "Hoarder"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/healer.png"
+    },
+    {
+      "name": "Wizard Bééé",
+      "attack": 1,
+      "health": 2,
+      "blood_cost": 3,
+      "sigils": [
+        "Stinky",
+        "Omni Strike"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/mage.png"
+    },
+    {
+      "name": "Graduation Bééé",
+      "attack": 2,
+      "health": 1,
+      "blood_cost": 2,
+      "sigils": [
+        "Airborne"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/graduation.png"
+    },
+    {
+      "name": "Construção Bééé",
+      "attack": 1,
+      "health": 3,
+      "blood_cost": 2,
+      "sigils": [
+        "Armored"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/chico.png"
+    },
+    {
+      "name": "Thriller Bééé",
+      "attack": 2,
+      "health": 3,
+      "blood_cost": 3,
+      "sigils": [
+        "Fledgling"
+      ],
+      "evolution": "Thriller Bééé — Evolved",
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/michael.png"
+    },
+    {
+      "name": "Thriller Bééé — Evolved",
+      "attack": 4,
+      "health": 5,
+      "rare": true,
+      "banned": true,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/michael.png?raw=true"
+    },
+    {
+      "name": "Dark Side of the Bééé",
+      "attack": 2,
+      "health": 4,
+      "blood_cost": 3,
+      "sigils": [
+        "Sprinter"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/moon.png"
+    },
+    {
+      "name": "Sofrências Bééé",
+      "attack": 2,
+      "health": 3,
+      "blood_cost": 3,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/marilia.png"
+    },
+    {
+      "name": "BLACK GOAT",
+      "attack": 0,
+      "health": 2,
+      "blood_cost": 1,
+      "sigils": [
+        "Worthy Sacrifice"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/blackgoat.png"
+    },
+    {
+      "name": "Bééé SquarePants",
+      "attack": 2,
+      "health": 4,
+      "blood_cost": 4,
+      "sigils": [
+        "Trifurcated Strike",
+        "Waterborne"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/esponja.png"
+    },
+    {
+      "name": "Super-Bééé",
+      "attack": 4,
+      "health": 6,
+      "blood_cost": 4,
+      "sigils": [
+        "Mighty Leap",
+        "Burrower"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/superman.png"
+    },
+    {
+      "name": "Spider Bééé",
+      "attack": 4,
+      "health": 3,
+      "blood_cost": 4,
+      "sigils": [
+        "Airborne"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/spiderman.png"
+    },
+    {
+      "name": "Bééé of War",
+      "attack": 2,
+      "health": 3,
+      "blood_cost": 3,
+      "sigils": [
+        "Touch of Death"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/kratos.png"
+    },
+    {
+      "name": "PikaBééé",
+      "attack": 3,
+      "health": 5,
+      "blood_cost": 4,
+      "sigils": [
+        "Sharp Quills"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/pikachu.png"
+    },
+    {
+      "name": "Super Bééé Odyssey",
+      "attack": 3,
+      "health": 5,
+      "blood_cost": 4,
+      "sigils": [
+        "Sprinter"
+      ],
+      "rare": true,
+      "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/mario.png?raw=true"
+    },
+    {
+      "name": "Sonic Bééé",
+      "attack": 3,
+      "health": 3,
+      "blood_cost": 4,
+      "sigils": [
+        "Sprinter",
+        "Airborne"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/sonic.png"
+    },
+    {
+      "name": "Grand Bééé Auto V",
+      "attack": 3,
+      "health": 2,
+      "blood_cost": 3,
+      "sigils": [
+        "Sprinter",
+        "Sniper"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/gta.png"
+    },
+    {
+      "name": "Tung Bééé Sahur",
+      "attack": 3,
+      "health": 4,
+      "blood_cost": 3,
+      "sigils": [
+        "Hefty"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/tung.png"
+    },
+    {
+      "name": "Black Bééé Lotus",
+      "attack": 0,
+      "health": 1,
+      "blood_cost": 0,
+      "sigils": [
+        "Worthy Sacrifice"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/lotus.png"
+    },
+    {
+      "name": "Blue-Eyes White Bééé",
+      "attack": 3,
+      "health": 5,
+      "blood_cost": 3,
+      "sigils": [
+        "Airborne"
+      ],
+      "rare": true,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/blue-eyes.png"
+    },
+    {
+      "name": "Trophy",
+      "attack": 0,
+      "health": 1,
+      "pixport_url": "https://raw.githubusercontent.com/tannukie/beee-assets/refs/heads/main/beees-portraits/trophy.png"
+    }
+  ],
+  "side_decks": {
+    "10 Trophies": {
+      "type": "single",
+      "card": "Trophy",
+      "count": 10
+    }
+  },
+  "sigils": {
+    "Airborne": "A card bearing this sigil will strike an opponent directly, even if there is a creature opposing it.",
+    "Armored": "The first time a card bearing this sigil would take damage, prevent that damage.",
+    "Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
+    "Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
+    "Brittle": "After attacking, a card bearing this sigil perishes.",
+    "Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+    "Fledgling": "A card bearing this sigil will grow into a more powerful form after 1 turn on the board.",
+    "Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
+    "Hoarder": "When a card bearing this sigil is played, you may search your deck for any card and take it into your hand.",
+    "Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
+    "Mighty Leap": "A card bearing this sigil will block an opposing creature bearing the airborne sigil.",
+    "Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
+    "Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
+    "Sniper": "You may choose which opposing card a card bearing this sigil strikes.",
+    "Sprinter": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil.",
+    "Stinky": "The creature opposing a card bearing this sigil loses 1 Power.",
+    "Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
+    "Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
+    "Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
+    "Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
+    "Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
+  },
+  "working_sigils": [
+    "Airborne",
+    "Mighty Leap",
+    "Unkillable",
+    "Touch of Death",
+    "Trifurcated Strike",
+    "Brittle",
+    "Worthy Sacrifice",
+    "Bifurcated Strike",
+    "Fledgling",
+    "Sprinter",
+    "Waterborne",
+    "Hefty",
+    "Sharp Quills",
+    "Burrower",
+    "Hoarder",
+    "Stinky",
+    "Armored",
+    "Leader",
+    "Blood Lust",
+    "Omni Strike"
+  ],
+  "custom_sigils": {}
+}
