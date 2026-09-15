@@ -163,6 +163,9 @@
       "attack": 0,
       "health": 2,
       "blood_cost": 1,
+      "sigils": [
+        "Hoarder"
+      ],
       "pixport_url": "https://github.com/tannukie/beee-assets/blob/main/alien.png?raw=true"
     },
     {
